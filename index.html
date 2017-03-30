@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+		<title>每日生鲜</title>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="lib/ionic.css"/>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body ng-app="fruit">
+		<!--//路由控制的视图-->
+		<ng-view>
+			
+		</ng-view>
+		<!--底部导航-->
+		<div class="tabs tabs-icon-top tabs-background-light tabs-color-positive">
+			<ly-menutab ng-repeat="item in menuItems" url="item.url" icon="item.icon" active="item.active" name="item.name">
+				
+			</ly-menutab>
+		</div>
+		<!--分割线------------------------->
+		<script src="lib/bundle.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/angular-route.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/lib/angular-route.js"></script>
+		<script src="controller/homeCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="controller/brandCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="controller/moneyCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="controller/cartCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="controller/mineCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="directive/home_menu_tab.js" type="text/javascript" charset="utf-8"></script>
+		<script src="factory/homeMenuData.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
