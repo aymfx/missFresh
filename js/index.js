@@ -8,12 +8,10 @@ app.run(['$rootScope','homeMenuData',function(root,menudata){
 	//拿到菜单的menu的值
 	root.menuItems=menudata.all;
 	
+	//取得购物车的数量
+	root.totallist=0;
+	
 }])
-
-
-
-
-
 
 //进行路由配置
 app.config(['$routeProvider',function(route){
@@ -42,6 +40,19 @@ app.config(['$routeProvider',function(route){
 		redirectTo:'/home'
 	})
 }])
+
+
+//过滤器 number
+
+app.filter('filternumber',function(){
+		return function(target){
+			target=target/100;
+			return parseFloat(target);
+		}
+})
+
+//
+
 
 
 

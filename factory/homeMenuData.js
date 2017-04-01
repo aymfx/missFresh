@@ -8,25 +8,26 @@ app.factory('homeMenuData',function(){
 			icon:'ion-ios-home-outline'
 		},
 		{
-			name:'首页',
+			name:'品牌',
 			url:'#/brand',
 			active:false,
 			icon:'ion-ios-flame-outline'
 		},
 		{
-			name:'首页',
+			name:'红包',
 			url:'#/money',
 			active:false,
 			icon:'ion-ios-briefcase-outline'
 		},
 		{
-			name:'首页',
+			name:'购物车',
 			url:'#/cart',
 			active:false,
-			icon:'ion-ios-cart-outline'
+			icon:'ion-ios-cart-outline',
+			totalnum:0
 		},
 		{
-			name:'首页',
+			name:'我的',
 			url:'#/mine',
 			active:false,
 			icon:'ion-social-reddit-outline'
@@ -43,3 +44,6 @@ app.factory('homeMenuData',function(){
 		}
 	}
 })
+
+
+

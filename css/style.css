@@ -1,3 +1,33 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,td,figure{margin:0;padding:0;}
+body{font:12px "宋体";word-wrap:break-word;}
+a,u,s,del{color:#666;text-decoration:none} 
+fieldset,a img,.bor0{border:0;}
+i,em,b{font-style:normal;font-weight:100;}
+li{list-style:none}
+img{vertical-align:middle}
+table{border-collapse:collapse;}
+input,textarea{outline:none;}
+textarea{resize:none;}
+
+
+
+.ind2{text-indent:2em}
+.clear{zoom:1;}
+.clear:after{content:"";display:block;clear:both;}
+.vcenter{vertical-align:middle;display:inline-block;width:0;height:100%;}
+.over{overflow:hidden;text-oveflow:ellipsis;white-space:nowrap;}
+.l{float:left;}
+.r{float:right;}
+.cu{cursor:pointer;}
+
+.bar{
+	background:#ff4891;
+	opacity: .4;
+}
+.tabs{
+	color:#ff4891;
+	
+}
 .lunbo .box{
 	height:3.06rem;
 }
@@ -10,7 +40,70 @@
 	background-size:cover;
 }
  .pink{
-	background: url(http://missfresh-asschool-develop-common.ufile.ucloud.com.cn/img_20161210094309483.jpg) no-repeat;
+	background: url(http://missfresh-asschool-develop-common.ufile.ucloud.com.cn/img_20170320152856221.jpg) no-repeat;
 	background-size:cover;
 }
-			
+.item-thumbnail-left{
+	padding-bottom:0.08rem;
+}
+.item-thumbnail-left h2{
+	color: #262626;
+}
+.item-thumbnail-left p{
+    color: #969696;
+}
+.item-thumbnail-left .coupon{
+	color: rgb(255, 195, 141);
+}
+.left-price{
+	float: left;
+	line-height: 0.88rem;
+}
+.left-price b{
+	color: rgb(255, 72, 145);
+}
+.right-cart{
+	float:right;
+	line-height: 0.88rem;
+}
+.price-pane{
+	line-height: 0.88rem;
+	height: 0.88rem;
+	
+}
+.img-pane{
+	height: 0.88rem;
+}
+.price-pane span{
+	font-size: 0.4rem;
+}
+.price-pane .minus,.price-pane .plus{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: inline-block;
+	border-radius: 50%;
+	color: white;
+	background:rgb(255, 72, 145);;
+	text-align: center;
+	line-height: 0.4rem;
+}
+.tab-cartNum{
+    position: absolute;
+    left:5.4rem;
+    top: 1px;
+    display: inline-block;
+    width:0.4rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height:0.4rem;
+    height:0.4rem;
+    font-size:0.24rem;
+    background: deeppink;
+    color: #fff;
+}
+.bar .title{
+	color:white;
+}
+.button{
+	color:white;
+}

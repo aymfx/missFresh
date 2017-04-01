@@ -14,22 +14,28 @@
 			
 		</ng-view>
 		<!--底部导航-->
-		<div class="tabs tabs-icon-top tabs-background-light tabs-color-positive">
-			<ly-menutab ng-repeat="item in menuItems" url="item.url" icon="item.icon" active="item.active" name="item.name">
+		<div class="tabs tabs-icon-top ">
+			<ly-menutab ng-repeat="item in menuItems" url="item.url" icon="item.icon" active="item.active" name="item.name" totallist="totallist">
 				
 			</ly-menutab>
 		</div>
 		<!--分割线------------------------->
 		<script src="lib/bundle.js" type="text/javascript" charset="utf-8"></script>
 		<script src="lib/angular-route.js" type="text/javascript" charset="utf-8"></script>
+		
 		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
-		<script src="/lib/angular-route.js"></script>
+		
 		<script src="controller/homeCtrl.js" type="text/javascript" charset="utf-8"></script>
 		<script src="controller/brandCtrl.js" type="text/javascript" charset="utf-8"></script>
 		<script src="controller/moneyCtrl.js" type="text/javascript" charset="utf-8"></script>
 		<script src="controller/cartCtrl.js" type="text/javascript" charset="utf-8"></script>
 		<script src="controller/mineCtrl.js" type="text/javascript" charset="utf-8"></script>
+		
 		<script src="directive/home_menu_tab.js" type="text/javascript" charset="utf-8"></script>
+		<script src="directive/home_content_products.js" type="text/javascript" charset="utf-8"></script>
+		
+		
 		<script src="factory/homeMenuData.js" type="text/javascript" charset="utf-8"></script>
+		<script src="factory/homeproductData.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>
