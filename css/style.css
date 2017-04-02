@@ -107,3 +107,60 @@ textarea{resize:none;}
 .button{
 	color:white;
 }
+
+.unknow-info{
+    background: url(http://statics.as.missfresh.cn/frontend/img/my-bg.png) no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    height: 4rem;
+    padding-top: 25px;
+    margin-bottom: 10px;
+}
+.loginclass{
+	position: relative;
+	margin-top: 80%;
+}
+.login-modal{
+	margin-top: 1rem;
+}
+
+..bar.bar-positive{
+	   box-shadow: 0px 2px 5px #000;
+}
+.login-modal .item{
+	border:0;
+	border-bottom: 1px solid #e6e6e6;
+	margin:0 0.4rem;
+	
+}
+.item-input-wrapper{
+	background: #fff;
+	
+}
+.item-input-wrapper input{
+	font-size: 16px;
+	color: #262626;
+}
+.code-botton{
+	font-size: 14px;
+    color: #ff4891;
+    padding: 5px 5px 4px;
+    border: 1px solid #ff4891;
+    border-radius: 5px;
+    background: #fff;
+}
+.login-modal .item-input-inset{
+	padding-bottom:0.1rem ;
+}
+
+.login-user{
+	border: none;
+	height: .8rem;
+	width: 6.4rem;
+	margin-top: 0.6rem;
+	transform: translateX(0.5rem);
+	background-color: #ff4891;
+    color: #fff;
+    border-radius: 0.08rem;
+    font-size: 0.32rem;
+}

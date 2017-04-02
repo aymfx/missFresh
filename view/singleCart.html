@@ -1,0 +1,21 @@
+				<div class="item item-thumbnail-left" href="#">
+			       <img src="{{product.images.list}}">
+			       <h2>{{product.name}}</h2>
+			       <p>{{product.subtitle}}</p>
+			       <p class="coupon">可用劵价{{product.vip_price | filternumber}}</p>
+			       <p>
+			       		<div class="left-price">
+			       			<b>打喵会员价<em>￥{{product.price | filternumber}}</em></b>
+			       		</div>
+			       		<div class="right-cart">
+			       			<p ng-show="product.num" class="price-pane">
+			       				<span class="minus" ng-click="minus()">-</span>
+			       				<span class="home-price">{{product.num}}</span>
+			       				<span class="plus" ng-click="plus()">+</span>
+			       			</p>
+			       			<p ng-hide="product.num" ng-click="plus()" class="img-pane">
+			       				<img src="http://missfresh-asschool-develop-common.ufile.ucloud.com.cn/img_20170104135958919.png" style="width:0.8rem;">
+			       			</p>
+			       		</div>
+			       </p>
+		    	</div>

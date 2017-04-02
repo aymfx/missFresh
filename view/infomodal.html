@@ -1,0 +1,30 @@
+<div class="modal" ng-controller="loginCtrl">
+		<!--导航-->
+		<div class="bar bar-header bar-positive">
+		<button class="button button-icon icon ion-chevron-left" ng-click="back()"></button>
+	  	<h1 class="title">验证手机</h1>
+	  	</button>
+		</div>
+		<!--登录页面-->
+		<div class="list has-header login-modal">
+		    <div class="item item-input-inset">
+			      <label class="item-input-wrapper">
+			        <input type="text" ng-model="user.phone" placeholder="请输入手机号">
+			      </label>
+			      <button ng-click="sendCode()" class="button button-small code-botton">
+			       			 获取验证码
+			      </button>
+		    </div>
+		    <div class="item item-input-inset">
+			      <label class="item-input-wrapper">
+			        <input type="text" ng-model="user.code" placeholder="输入验证码">
+			      </label>
+		    </div>
+		    <div>
+			      
+			        <input type="submit" value="登录" class="login-user">
+			    
+		    </div>
+  		</div>
+		
+</div>

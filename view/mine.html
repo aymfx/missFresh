@@ -1,7 +1,15 @@
-		<!--导航-->
-		<div class="bar bar-header bar-positive">
-	  	<h1 class="title">我的信息</h1>
-	  	<button class="button button-icon icon ion-social-tux">
-	  		
-	  	</button>
-		</div>
+
+		<ion-content>
+			
+			<div class="unknow-info">
+				<div ng-show="!login" class="loginclass">
+				<button class="button button-full button-positive" ng-click="show()">
+				    用户登陆
+				</button>
+				</div>
+			</div>
+			<div ng-show="login" class="info" class="loginclass">
+				<p>13020003856</p>
+				<p>订单信息 ....</p>
+			</div>
+		</ion-content>

@@ -9,6 +9,17 @@
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body ng-app="fruit">
+		<script type="text/javascript">
+			//数据存储中心
+				function Save(listname,data){
+					if(data){
+						localStorage.setItem(listname,JSON.stringify(data));
+						return;
+					}
+					
+					return JSON.parse(localStorage.getItem(listname)) || {};
+				}
+		</script>
 		<!--//路由控制的视图-->
 		<ng-view>
 			
@@ -30,6 +41,7 @@
 		<script src="controller/moneyCtrl.js" type="text/javascript" charset="utf-8"></script>
 		<script src="controller/cartCtrl.js" type="text/javascript" charset="utf-8"></script>
 		<script src="controller/mineCtrl.js" type="text/javascript" charset="utf-8"></script>
+		<script src="controller/loginCtrl.js" type="text/javascript" charset="utf-8"></script>
 		
 		<script src="directive/home_menu_tab.js" type="text/javascript" charset="utf-8"></script>
 		<script src="directive/home_content_products.js" type="text/javascript" charset="utf-8"></script>
@@ -37,5 +49,6 @@
 		
 		<script src="factory/homeMenuData.js" type="text/javascript" charset="utf-8"></script>
 		<script src="factory/homeproductData.js" type="text/javascript" charset="utf-8"></script>
+		<script src="factory/mineInfoData.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>
