@@ -49,20 +49,18 @@
 >浏览器输入:http://localhost:8080/
  
  # 截图 
- ![请输入图片描述][1]
+![请输入图片描述][1]
+
+
+![请输入图片描述][2]
+
+
+![请输入图片描述][3]
 
 
   [1]: http://www.aymfx.cn/liuyang/show/missfresh/a.jpg
-  
-  ![请输入图片描述][1]
-
-
-  [1]: http://www.aymfx.cn/liuyang/show/missfresh/b.jpg
-  
-   ![请输入图片描述][1]
-
-
-  [1]: http://www.aymfx.cn/liuyang/show/missfresh/c.jpg
+  [2]: http://www.aymfx.cn/liuyang/show/missfresh/b.jpg
+  [3]: http://www.aymfx.cn/liuyang/show/missfresh/c.jpg
   
  
      
