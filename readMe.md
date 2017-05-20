@@ -37,6 +37,34 @@
  
 # 功能实现
  - 首页轮播图，商品列表获取
+ - 购物车列表的实现
+ - cookie存储购物车记录
+ - 登录模块
+ 
+# 安装
+> npm i http-server -g   全局安装服务器
+> 克隆代码 https://github.com/aymfx/missFresh.git
+>解压 进入文件内部
+>cmd 敲 http-server
+>浏览器输入:http://localhost:8080/
+ 
+ # 截图 
+ ![请输入图片描述][1]
+
+
+  [1]: http://www.aymfx.cn/liuyang/show/missfresh/a.jpg
+  
+  ![请输入图片描述][1]
+
+
+  [1]: http://www.aymfx.cn/liuyang/show/missfresh/b.jpg
+  
+   ![请输入图片描述][1]
+
+
+  [1]: http://www.aymfx.cn/liuyang/show/missfresh/c.jpg
+  
+ 
      
 
 	
