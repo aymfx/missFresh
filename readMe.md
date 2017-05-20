@@ -47,9 +47,13 @@
  
 # 安装
 > npm i http-server -g   全局安装服务器
+
 > 克隆代码 https://github.com/aymfx/missFresh.git
+
 >解压 进入文件内部
+
 >cmd 敲 http-server
+
 >浏览器输入:http://localhost:8080/
  
  # 截图 
