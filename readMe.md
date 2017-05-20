@@ -29,9 +29,13 @@
 # lib
 
 >angular.js
+
 >angular-route.js
+
 >ionic.css -- ionic --UI框架
+
 >ionic-all.js ionic UI组件(一个集合，包含ng)
+
 >bundle.js 包含上述所有文件
  
  
